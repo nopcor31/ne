@@ -1,0 +1,225 @@
+/* Hoja de Estilo Global QSS — CRM Operativo NE (Diseño Moderno Inspirado en Linear, Notion y Microsoft Office) */
+
+/* Estilo Base de la Aplicacion */
+QWidget {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: "Inter", "Segoe UI Variable", "Segoe UI", -apple-system, sans-serif;
+    font-size: 13px;
+}
+
+/* Sidebar Navigation (Estilo Linear / Notion Clean) */
+#sidebar {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E2E8F0;
+    min-width: 230px;
+    max-width: 260px;
+}
+
+#sidebar QLabel {
+    color: #1E293B;
+}
+
+#sidebar QPushButton {
+    background-color: transparent;
+    color: #475569;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 12px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#sidebar QPushButton:hover {
+    background-color: #F1F5F9;
+    color: #0F172A;
+}
+
+#sidebar QPushButton:checked {
+    background-color: #EFF6FF;
+    color: #2563EB;
+    font-weight: 600;
+}
+
+/* Topbar Header */
+#topbar {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 10px 20px;
+}
+
+#topbar QLineEdit {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    color: #0F172A;
+}
+
+#topbar QLineEdit:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #2563EB;
+}
+
+/* Tablas Modernas (QTableView / QTableWidget) */
+QTableWidget, QTableView {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    gridline-color: #F1F5F9;
+    selection-background-color: #EFF6FF;
+    selection-color: #1E40AF;
+    outline: 0;
+}
+
+QTableWidget::item {
+    padding: 10px 12px;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+QTableWidget::item:selected {
+    background-color: #EFF6FF;
+    color: #1E40AF;
+    font-weight: 500;
+}
+
+QHeaderView::section {
+    background-color: #F8FAFC;
+    color: #64748B;
+    padding: 10px 12px;
+    border: none;
+    border-bottom: 1px solid #E2E8F0;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Botones Principales y Secundarios */
+QPushButton {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: 1px solid #1D4ED8;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    background-color: #1D4ED8;
+}
+
+QPushButton:pressed {
+    background-color: #1E40AF;
+}
+
+QPushButton#btnSecondary {
+    background-color: #FFFFFF;
+    color: #334155;
+    border: 1px solid #CBD5E1;
+}
+
+QPushButton#btnSecondary:hover {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    border-color: #94A3B8;
+}
+
+/* Entradas de Texto e Insumos de Formulario */
+QLineEdit, QComboBox, QDateEdit, QTextEdit, QSpinBox, QDoubleSpinBox {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #0F172A;
+    font-size: 13px;
+}
+
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus, QTextEdit:focus {
+    border: 1px solid #2563EB;
+}
+
+QComboBox::drop-down {
+    border: none;
+    padding-right: 8px;
+}
+
+/* Scrollbars Modernas y Discretas */
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #CBD5E1;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #94A3B8;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #CBD5E1;
+    border-radius: 4px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #94A3B8;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
+
+/* Tarjetas KPI */
+.kpi-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.kpi-card:hover {
+    border-color: #CBD5E1;
+}
+
+.kpi-title {
+    color: #64748B;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.kpi-value {
+    color: #0F172A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Scroll Area para Kanban */
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+/* Dialogos */
+QDialog {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}

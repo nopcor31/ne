@@ -1,0 +1,29 @@
+/* Design System Visual Tokens — CRM Operativo NE */
+
+/* Variables de Colores Base */
+@color-primary: #1B6FD8;
+@color-primary-light: #E8F0FD;
+@color-surface: #FFFFFF;
+@color-bg: #F4F6FA;
+@color-border: #E2E6EC;
+@color-text-primary: #111827;
+@color-text-secondary: #6B7280;
+@color-text-placeholder: #9CA3AF;
+
+/* Estados de Cotizacion */
+@estado-borrador: #9CA3AF;
+@estado-cotizada: #3B82F6;
+@estado-enviada: #8B5CF6;
+@estado-aceptada: #10B981;
+@estado-rechazada: #EF4444;
+@estado-area-med: #F59E0B;
+@estado-programada: #06B6D4;
+@estado-oc: #6366F1;
+@estado-facturada: #84CC16;
+@estado-pagada: #16A34A;
+@estado-cerrada: #374151;
+
+/* Niveles de Alerta */
+@alerta-info: #3B82F6;
+@alerta-advertencia: #F59E0B;
+@alerta-critica: #EF4444;
