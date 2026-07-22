@@ -1,0 +1,6 @@
+{
+  "name": "CRM Operativo",
+  "description": "Sistema Integral de Gestión de Servicios Médicos NE - Auditoría y Plataforma de Operaciones",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
